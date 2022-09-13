@@ -9,7 +9,7 @@ html {
 body {
   font-family: 'Lato';
   font-weight: 400;
-  color: #777;
+  color: #777777;
   font-size: 1.6rem;
   letter-spacing: .2rem;
   padding: 50px;
@@ -22,7 +22,7 @@ body {
   position: relative;
   height: 95vh;
   width: 95vw;
-  background: linear-gradient(90deg, rgba(2, 0, 36, 0.5) 0%, rgba(9, 121, 105, 0.2) 50%, rgba(0, 212, 255, 0.8) 100%), url(../img/1.jpg) center/cover no-repeat;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.5) 0%, rgba(55, 160, 247, 0.2) 50%, rgba(0, 212, 255, 0.8) 100%), url(../img/1.jpg) center/cover no-repeat;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%); }
   .header__logo {
     height: 4rem;
