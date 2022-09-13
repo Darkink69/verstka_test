@@ -70,13 +70,12 @@ body {
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
+  color: #754C24;
   text-transform: uppercase;
   text-decoration: none;
-  color: #777777;
   padding: 1.5rem 4rem;
   background: white;
   border-radius: 5rem;
-  display: inline-block;
   transition: all .3s;
   position: relative;
   font-size: 2rem; }
