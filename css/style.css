@@ -43,6 +43,78 @@ body {
     opacity: 1;
     transform: translate(0rem); } }
 
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+  margin-bottom: 8rem; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+
+.col-1-of-2 {
+  width: calc(( 100% - 8rem ) / 2);
+  float: left; }
+  .col-1-of-2:not(:last-child) {
+    margin-bottom: 8rem; }
+
+.title-third {
+  font-size: 2rem;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.paragraph {
+  margin-top: 1rem; }
+
+.margin-bottom-80px {
+  margin-top: 8rem; }
+
+.margin-bottom-30px {
+  margin-bottom: 3rem; }
+
+.margin-bottom-10px {
+  margin-bottom: 1rem; }
+
+.composition {
+  position: relative; }
+  .composition__photo {
+    width: 30%;
+    border-radius: .5rem;
+    position: absolute;
+    transition: .5s;
+    outline-offset: 1rem; }
+    .composition__photo_n1 {
+      top: -2rem;
+      left: 10rem; }
+    .composition__photo_n2 {
+      top: 2rem;
+      left: 0rem; }
+    .composition__photo_n3 {
+      top: 10rem;
+      left: 4rem; }
+    .composition__photo:hover {
+      outline: 0.3rem solid #f822ed;
+      transform: scale(1.1);
+      z-index: 20; }
+  .composition:hover .composition__photo:not(:hover) {
+    transform: scale(0.9); }
+
+.section-about {
+  padding: 8rem; }
+
+.title-secondary {
+  text-align: center;
+  font-size: 5rem;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 0.5), #a3f85e80);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all .4s; }
+  .title-secondary:hover {
+    transform: skewY(2deg) skewX(10deg) scale(1.1);
+    text-shadow: 0rem 1rem 1rem rgba(15, 150, 50, 0.5); }
+
 .container {
   background-color: #ababab; }
 
@@ -136,3 +208,23 @@ body {
 .btn_animated {
   animation: BtnToUp .5s ease-out .7s;
   animation-fill-mode: backwards; }
+
+.btn-text:link, .btn-text:visited {
+  text-decoration: none;
+  letter-spacing: .2rem;
+  font-size: 2rem;
+  padding: 1rem;
+  display: inline-block;
+  color: #754C24; }
+
+.btn-text:hover {
+  background-color: #754C24;
+  color: #ffffff; }
+  .btn-text:hover::after {
+    opacity: 0;
+    transform: scaleX(1.5);
+    transform: scaleY(1.7); }
+
+.btn-text:active {
+  transform: translateY(2px);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); }

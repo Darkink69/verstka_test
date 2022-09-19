@@ -1,0 +1,434 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?4f2and');
+  src:  url('fonts/icomoon.eot?4f2and#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4f2and') format('truetype'),
+    url('fonts/icomoon.woff?4f2and') format('woff'),
+    url('fonts/icomoon.svg?4f2and#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Smooth_Polygons_32 .path1:before {
+  content: "\e900";
+  color: rgb(220, 239, 242);
+}
+.icon-Smooth_Polygons_32 .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(220, 239, 242);
+}
+.icon-Smooth_Polygons_32 .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(109, 110, 111);
+}
+.icon-Smooth_Polygons_32 .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(109, 110, 111);
+}
+.icon-Smooth_Polygons_32 .path5:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(173, 220, 218);
+}
+.icon-Smooth_Polygons_32 .path6:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: none;
+}
+.icon-Smooth_Polygons_32 .path7:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(109, 111, 113);
+}
+.icon-Smooth_Polygons_32 .path8:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(244, 238, 200);
+}
+.icon-Smooth_Polygons_32 .path9:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(109, 111, 113);
+}
+.icon-Smooth_Polygons_32 .path10:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(244, 238, 200);
+}
+.icon-Smooth_Polygons_32 .path11:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(109, 111, 113);
+}
+.icon-Smooth_Polygons_32 .path12:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(244, 238, 200);
+}
+.icon-Smooth_Polygons_32 .path13:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(109, 111, 113);
+}
+.icon-Smooth_Polygons_32 .path14:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(244, 238, 200);
+}
+.icon-Smooth_Polygons_32 .path15:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(246, 142, 125);
+}
+.icon-Smooth_Polygons_32 .path16:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: none;
+}
+.icon-Smooth_Polygons_32 .path17:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32 .path18:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32 .path19:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32 .path20:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32 .path21:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32 .path22:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32 .path23:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32 .path24:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32 .path25:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32 .path26:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32 .path27:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32 .path28:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32 .path29:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32 .path30:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(69, 123, 132);
+}
+.icon-Smooth_Polygons_32_dark .path1:before {
+  content: "\e91e";
+  color: rgb(109, 110, 111);
+}
+.icon-Smooth_Polygons_32_dark .path2:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(109, 110, 111);
+}
+.icon-Smooth_Polygons_32_dark .path3:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(173, 220, 218);
+}
+.icon-Smooth_Polygons_32_dark .path4:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: none;
+}
+.icon-Smooth_Polygons_32_dark .path5:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(109, 111, 113);
+}
+.icon-Smooth_Polygons_32_dark .path6:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(244, 238, 200);
+}
+.icon-Smooth_Polygons_32_dark .path7:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(109, 111, 113);
+}
+.icon-Smooth_Polygons_32_dark .path8:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(244, 238, 200);
+}
+.icon-Smooth_Polygons_32_dark .path9:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(109, 111, 113);
+}
+.icon-Smooth_Polygons_32_dark .path10:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(244, 238, 200);
+}
+.icon-Smooth_Polygons_32_dark .path11:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(109, 111, 113);
+}
+.icon-Smooth_Polygons_32_dark .path12:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(244, 238, 200);
+}
+.icon-Smooth_Polygons_32_dark .path13:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(246, 142, 125);
+}
+.icon-Smooth_Polygons_32_dark .path14:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: none;
+}
+.icon-Smooth_Polygons_32_dark .path15:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32_dark .path16:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32_dark .path17:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32_dark .path18:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32_dark .path19:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32_dark .path20:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32_dark .path21:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32_dark .path22:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32_dark .path23:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32_dark .path24:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32_dark .path25:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32_dark .path26:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32_dark .path27:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Smooth_Polygons_32_dark .path28:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(69, 123, 132);
+}
+.icon-table_Excel_32 .path1:before {
+  content: "\e93a";
+  color: rgb(109, 110, 111);
+}
+.icon-table_Excel_32 .path2:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(1, 129, 1);
+}
+.icon-table_Excel_32 .path3:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(109, 110, 111);
+}
+.icon-table_Excel_32 .path4:before {
+  content: "\e93d";
+  margin-left: -1em;
+  color: rgb(109, 110, 111);
+}
+.icon-table_Excel_32 .path5:before {
+  content: "\e93e";
+  margin-left: -1em;
+  color: rgb(109, 110, 111);
+}
+.icon-table_Excel_32 .path6:before {
+  content: "\e93f";
+  margin-left: -1em;
+  color: rgb(109, 110, 111);
+}
+.icon-table_Excel_32 .path7:before {
+  content: "\e940";
+  margin-left: -1em;
+  color: rgb(109, 110, 111);
+}
+.icon-table_Excel_32 .path8:before {
+  content: "\e941";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
+}
+.icon-table_Excel_32 .path9:before {
+  content: "\e942";
+  margin-left: -1em;
+  color: rgb(67, 173, 67);
+}
+.icon-table_Excel_32 .path10:before {
+  content: "\e943";
+  margin-left: -1em;
+  color: rgb(0, 128, 0);
+}
+.icon-table_Excel_32 .path11:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-table_Excel_32 .path12:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-table_Excel_32 .path13:before {
+  content: "\e946";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-table_Excel_32 .path14:before {
+  content: "\e947";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-table_Excel_32 .path15:before {
+  content: "\e948";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-table_Excel_32 .path16:before {
+  content: "\e949";
+  margin-left: -1em;
+  color: rgb(69, 123, 132);
+}
+.icon-table_Excel_32 .path17:before {
+  content: "\e94a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-table_Excel_32 .path18:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-table_Excel_32 .path19:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-table_Excel_32 .path20:before {
+  content: "\e94d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-table_Excel_32 .path21:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-table_Excel_32 .path22:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-table_Excel_32 .path23:before {
+  content: "\e950";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-table_Excel_32 .path24:before {
+  content: "\e951";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}

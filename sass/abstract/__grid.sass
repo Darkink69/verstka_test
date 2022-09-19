@@ -1,0 +1,57 @@
+.row
+    max-width: 114rem
+    margin: 0 auto
+    margin-bottom: 8rem
+    &:not(:last-child)
+        margin-bottom: 8rem
+
+.col-1-of-2
+    &:not(:last-child)
+        margin-bottom: 8rem
+    width: calc(( 100% - 8rem ) / 2)
+    float: left
+
+
+.title-third
+    font-size: 2rem
+    letter-spacing: .2rem
+    text-transform: uppercase
+    font-weight: 700
+
+.paragraph
+    margin-top: 1rem
+
+
+.margin-bottom-80px
+    margin-top: 8rem
+
+.margin-bottom-30px
+    margin-bottom: 3rem
+
+.margin-bottom-10px
+    margin-bottom: 1rem
+
+.composition
+    position: relative
+    &__photo
+        width: 30%
+        border-radius: .5rem
+        position: absolute
+        transition: .5s
+        outline-offset: 1rem
+        &_n1
+            top: -2rem
+            left: 10rem
+        &_n2
+            top: 2rem
+            left: 0rem
+        &_n3
+            top: 10rem
+            left: 4rem
+        &:hover
+            outline: .3rem solid $color-pink
+            transform: scale(1.1)
+            z-index: 20
+    &:hover &__photo:not(:hover)
+        transform: scale(.9)
+        
