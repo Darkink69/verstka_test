@@ -4,6 +4,7 @@
     transition: 1s all
     perspective: 500rem
     position: relative
+    border-radius: .5rem
     &__side
         height: 50rem
         box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.1))
@@ -14,6 +15,7 @@
         left: 0
         width: 100%
         backface-visibility: hidden
+        overflow: hidden
         &_front
             background: #6B8F83
             padding: 2rem
@@ -45,3 +47,28 @@
         ul
             padding: 5rem
             text-align: center
+
+
+    &__backSide-box
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        margin-bottom: 8rem
+    &__text
+        margin-bottom: 8rem
+        text-align: center
+        text-transform: uppercase
+        letter-spacing: .2rem
+        color: black
+        &_1
+            font-size: 2rem
+            font-weight: 300
+            
+        &_2
+            font-size: 4rem
+            font-weight: 300
+
+.row
+    display: flex
+    justify-content: space-around
