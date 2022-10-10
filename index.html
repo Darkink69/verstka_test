@@ -10,6 +10,23 @@
 </head>
 <body>
     <div class="container">
+
+        <div class="navigation">
+            <input type="checkbox" class="navigation__toggle" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button"></label>
+            <div class="navigation__background"></div>
+            <nav class="navigation__nav"> 
+                <li class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link">О нас</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">О других</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Еще о ком-то</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Следующий</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Всему конец</a></li>
+                </li>
+
+            </nav>
+        </div>
+
         <header class="header">
             <img class="header__logo" src="./img/icon.svg" alt="иконка">
             <div class="header__box">
@@ -172,29 +189,73 @@
 
         </section>
 
-    </main>
-    <section class="section-book">
-        <div class="row">
-            <div class="book">
-                <div class="book__form">
-                    <h2 class="title-secondary">Третий красивый заголовок</h2>
-                    <form action="" class="form">
-                        <div class="form__group">
-                            <input type="text" class="form__input" placeholder="Имя Фамилия" id="name" required>
-                            <label for="name" class="form__label">Ваше имя и фамилия</label>
-                        </div>
-                        
-                        <div class="form__group">
-                            <input type="email" class="form__input" placeholder="Ваш email" id="email" required>
-                            <label for="email" class="form__label">Ваш email</label>
-                        </div>
-                    </form>
+        <section class="section-book">
+            <div class="row">
+                <div class="book">
+                    <div class="book__form">
+                        <h2 class="title-secondary">Третий красивый заголовок</h2>
+                        <form action="" class="form">
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Имя Фамилия" id="name" required>
+                                <label for="name" class="form__label">Ваше имя и фамилия</label>
+                            </div>
+                            
+                            <div class="form__group">
+                                <input type="email" class="form__input" placeholder="Ваш email" id="email" required>
+                                <label for="email" class="form__label">Ваш email</label>
+                            </div>
+    
+                            <div class="form__group">
+                                <div class="form__group-radio">
+                                    <input type="radio" class="form__input-radio" id="tour-1" name="checked">
+                                    <label for="tour-1" class="form__label-radio">
+                                        <span class="form__button-radio"></span>
+                                        Первый
+                                    </label>
+                                </div>
+    
+                                <div class="form__group-radio">
+                                    <input type="radio" class="form__input-radio" id="tour-2" name="checked">
+                                    <label for="tour-2" class="form__label-radio">
+                                        <span class="form__button-radio"></span>
+                                        Второй
+                                    </label>
+                                </div>
+                            </div>
+    
+                            <div class="form-group">
+                                <button class="btn btn_animated">Send</button>
+                            </div>
+    
+                        </form>
+                    </div>
+    
                 </div>
-
             </div>
+    
+        </section>
+    
+
+    </main>
+   
+    <footer class="footer">
+        <div class="row">
+            <a href="#">
+                <img href="/img/icon.svg" alt="" class=".footer__logo"></img>
+            </a>
         </div>
 
-    </section>
+        <div class="row">
+            <ul class="footer__list">
+                <li class="footer__item"><a href="#" class="footer__link">Одно</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Другое</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Третье</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">Четвертое</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">И последнее</a></li>
+            </ul>
+        </div>
+    </footer>
+
     
 </body>
 </html>

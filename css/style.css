@@ -193,7 +193,7 @@ container {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); }
 
 .form__group:not(:last-child) {
-  margin-bottom: 5rem; }
+  margin-bottom: 2rem; }
 
 .form__input {
   font-size: 3rem;
@@ -217,12 +217,129 @@ container {
   display: block;
   margin-top: 1rem;
   margin-left: 2rem;
-  transition: .7s all; }
+  transition: .3s all; }
 
 .form__input:placeholder-shown + .form__label {
   opacity: 0;
   visibility: hidden;
   transform: translateY(-1rem); }
+
+.form__group-radio {
+  width: 45%;
+  display: inline; }
+
+.form__input-radio {
+  display: none; }
+
+.form__label-radio {
+  cursor: pointer;
+  position: relative; }
+
+.form__button-radio {
+  height: 5rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: .5rem solid yellow;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -2rem;
+  padding-left: 4rem; }
+  .form__button-radio::after {
+    content: '';
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .2s; }
+
+.form__input-radio:checked ~ .form__label-radio .form__button-radio::after {
+  opacity: 1; }
+
+.footer {
+  padding: 8rem;
+  background: #4d614d; }
+  .footer__logo {
+    width: 10rem; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-right: 5rem; }
+  .footer__link:link, .footer__link:visited {
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    display: inline-block; }
+  .footer__link:hover {
+    transform: rotate(3deg) scale(1.2);
+    transition: all .5s; }
+
+.navigation__toggle {
+  display: none; }
+
+.navigation__button {
+  background: white;
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  position: fixed;
+  right: 7rem;
+  top: 7rem;
+  z-index: 200; }
+
+.navigation__background {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  background: radial-gradient(blue, green);
+  position: fixed;
+  right: 5rem;
+  top: 5rem;
+  z-index: 100;
+  transform: scale(50); }
+
+.navigation__nav {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 150; }
+
+.navigation__list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none; }
+
+.navigation__item {
+  text-align: center; }
+  .navigation__item:not(:last-child) {
+    margin-bottom: 5rem; }
+
+.navigation__link:link, .navigation__link:visited {
+  font-size: 4rem;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
+  background-size: 220%;
+  padding: 1rem 2rem;
+  transition: all .4s; }
+
+.navigation__link:hover, .navigation__link:active {
+  background-position: 100%;
+  color: blue; }
 
 .card-tour {
   height: 50rem;
@@ -337,7 +454,7 @@ container {
     margin-bottom: 6.5rem;
     animation-fill-mode: backwards; }
 
-.btn:link, .btn:visited {
+.btn, .btn:link, .btn:visited {
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
@@ -386,7 +503,8 @@ container {
   font-size: 2rem;
   padding: 1rem;
   display: inline-block;
-  color: #754C24; }
+  color: #754C24;
+  transition: all .5s; }
 
 .btn-text:hover {
   background-color: #754C24;

@@ -98,7 +98,7 @@
 
 .form
     &__group:not(:last-child)
-        margin-bottom: 5rem
+        margin-bottom: 2rem
         // padding-left: 5rem
 
     &__input
@@ -123,12 +123,129 @@
         display: block
         margin-top: 1rem
         margin-left: 2rem
-        transition: .7s all
+        transition: .3s all
 
     &__input:placeholder-shown + &__label
         opacity: 0
         visibility: hidden
         transform: translateY(-1rem)
         
-             
-            
+
+    &__group-radio
+        width: 45%
+        display: inline
+
+    &__input-radio
+        display: none
+
+    &__label-radio
+        cursor: pointer
+        position: relative
+    &__button-radio
+        height: 5rem
+        width: 3rem
+        border-radius: 50%
+        border: .5rem solid yellow
+        display: block
+        position: absolute
+        left: 0
+        top: -2rem
+        padding-left: 4rem
+        &::after
+            content: ''
+            display: block
+            height: 2rem
+            width: 2rem
+            border-radius: 100%
+            background: yellow
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            opacity: 0
+            transition: all .2s
+
+    &__input-radio:checked ~ &__label-radio &__button-radio::after
+        opacity: 1
+
+
+.footer
+    padding: 8rem
+    background: #4d614d
+    &__logo
+        width: 10rem
+    &__list
+        list-style: none
+    &__item
+        display: inline-block
+        &:not(:last-child)
+            margin-right: 5rem
+    &__link
+        &:link, &:visited
+            color: grey
+            text-decoration: none
+            text-transform: uppercase
+            font-size: 2rem
+            display: inline-block
+        &:active
+        &:hover
+            transform: rotate(3deg) scale(1.2)
+            transition: all .5s
+
+.navigation
+    &__toggle
+        display: none
+    &__button
+        background: white
+        height: 9rem
+        width: 9rem
+        border-radius: 50%
+        position: fixed
+        right: 7rem
+        top: 7rem
+        z-index: 200
+
+    &__background
+        width: 7rem
+        height: 7rem
+        border-radius: 50%
+        background: radial-gradient(blue, green)
+        position: fixed
+        right: 5rem
+        top: 5rem
+        z-index: 100
+        transform: scale(50)
+
+    &__nav
+        height: 100vh
+        width: 100%
+        position: fixed
+        top: 0
+        right: 0
+        z-index: 150
+    &__list
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        list-style: none
+    &__item
+        text-align: center
+        &:not(:last-child)
+            margin-bottom: 5rem
+    &__link
+        &:link, &:visited
+            font-size: 4rem
+            color: white
+            text-decoration: none
+            text-transform: uppercase
+            background: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%)
+            background-size: 220%
+            padding: 1rem 2rem
+            transition: all .4s
+
+        &:hover, &:active
+            background-position: 100%
+            color: blue
+
+    
