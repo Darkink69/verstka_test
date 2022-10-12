@@ -197,13 +197,15 @@
         display: none
     &__button
         background: white
-        height: 9rem
-        width: 9rem
+        height: 7rem
+        width: 7rem
         border-radius: 50%
         position: fixed
         right: 7rem
         top: 7rem
         z-index: 200
+        text-align: center
+        cursor: pointer
 
     &__background
         width: 7rem
@@ -214,7 +216,8 @@
         right: 5rem
         top: 5rem
         z-index: 100
-        transform: scale(50)
+        transition: all .4s
+        // transform: scale(70)
 
     &__nav
         height: 100vh
@@ -223,6 +226,9 @@
         top: 0
         right: 0
         z-index: 150
+        opacity: 0
+        width: 0
+        transition: all .4s ease-out
     &__list
         position: absolute
         top: 50%
@@ -231,13 +237,17 @@
         list-style: none
     &__item
         text-align: center
+        list-style-type: none
+        margin-top: 5rem
         &:not(:last-child)
-            margin-bottom: 5rem
+            margin-bottom: 8rem
     &__link
         &:link, &:visited
             font-size: 4rem
             color: white
             text-decoration: none
+            font-weight: 500
+            list-style-type: none
             text-transform: uppercase
             background: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%)
             background-size: 220%
@@ -247,5 +257,49 @@
         &:hover, &:active
             background-position: 100%
             color: blue
+
+    &__toggle:checked ~ &__background
+        transform: scale(80)
+    &__toggle:checked ~ &__nav
+        width: 100%
+        opacity: 1
+
+
+    &__icon
+        position: relative
+        margin-top: 37px
+        &,
+        &::before,
+        &::after
+            width: 30px
+            height: 2px
+            background: black
+            display: inline-block
+        &::before,
+        &::after
+            content: ""
+            position: absolute
+            left: 0
+            transition: all .3s
+        &::before
+            top: -8px
+        &::after
+            top: 8px
+
+    &__button:hover &__icon::before
+        top: -10px
+    &__button:hover &__icon::after
+        top: 10px
+    
+    &__toggle:checked + &__button &__icon
+        background: transparent
+    &__toggle:checked + &__button &__icon::before
+        top: 0
+        transform: rotate(135deg)
+    &__toggle:checked + &__button &__icon::after
+        top: 0
+        transform: rotate(-135deg)
+        
+        
 
     

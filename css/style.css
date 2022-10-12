@@ -288,13 +288,15 @@ container {
 
 .navigation__button {
   background: white;
-  height: 9rem;
-  width: 9rem;
+  height: 7rem;
+  width: 7rem;
   border-radius: 50%;
   position: fixed;
   right: 7rem;
   top: 7rem;
-  z-index: 200; }
+  z-index: 200;
+  text-align: center;
+  cursor: pointer; }
 
 .navigation__background {
   width: 7rem;
@@ -305,7 +307,7 @@ container {
   right: 5rem;
   top: 5rem;
   z-index: 100;
-  transform: scale(50); }
+  transition: all .4s; }
 
 .navigation__nav {
   height: 100vh;
@@ -313,7 +315,10 @@ container {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 150; }
+  z-index: 150;
+  opacity: 0;
+  width: 0;
+  transition: all .4s ease-out; }
 
 .navigation__list {
   position: absolute;
@@ -323,14 +328,18 @@ container {
   list-style: none; }
 
 .navigation__item {
-  text-align: center; }
+  text-align: center;
+  list-style-type: none;
+  margin-top: 5rem; }
   .navigation__item:not(:last-child) {
-    margin-bottom: 5rem; }
+    margin-bottom: 8rem; }
 
 .navigation__link:link, .navigation__link:visited {
   font-size: 4rem;
   color: white;
   text-decoration: none;
+  font-weight: 500;
+  list-style-type: none;
   text-transform: uppercase;
   background: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
   background-size: 220%;
@@ -340,6 +349,48 @@ container {
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
   color: blue; }
+
+.navigation__toggle:checked ~ .navigation__background {
+  transform: scale(80); }
+
+.navigation__toggle:checked ~ .navigation__nav {
+  width: 100%;
+  opacity: 1; }
+
+.navigation__icon {
+  position: relative;
+  margin-top: 37px; }
+  .navigation__icon, .navigation__icon::before, .navigation__icon::after {
+    width: 30px;
+    height: 2px;
+    background: black;
+    display: inline-block; }
+  .navigation__icon::before, .navigation__icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all .3s; }
+  .navigation__icon::before {
+    top: -8px; }
+  .navigation__icon::after {
+    top: 8px; }
+
+.navigation__button:hover .navigation__icon::before {
+  top: -10px; }
+
+.navigation__button:hover .navigation__icon::after {
+  top: 10px; }
+
+.navigation__toggle:checked + .navigation__button .navigation__icon {
+  background: transparent; }
+
+.navigation__toggle:checked + .navigation__button .navigation__icon::before {
+  top: 0;
+  transform: rotate(135deg); }
+
+.navigation__toggle:checked + .navigation__button .navigation__icon::after {
+  top: 0;
+  transform: rotate(-135deg); }
 
 .card-tour {
   height: 50rem;
