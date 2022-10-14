@@ -4,6 +4,9 @@
     margin-bottom: 8rem
     &:not(:last-child)
         margin-bottom: 8rem
+    @include respond(tab-port)
+        width: 100%
+        flex-direction: column
 
 .col-1-of-2
     &:not(:last-child)
@@ -54,4 +57,14 @@
             z-index: 20
     &:hover &__photo:not(:hover)
         transform: scale(.9)
+
+[class^="col-"]
+    float: left
+    &:not(:last-child)
+        margin-right: 1rem
+    @include respond(tab-land)
+        &:not(:last-child)
+            margin-right: 2rem
+    @include respond(tab-land)
+        width: 100% !important
         
